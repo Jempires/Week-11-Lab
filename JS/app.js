@@ -5,7 +5,7 @@ let todoList = [
     {todo: 'push code to my own github repo', status:'started'}
 ]
 
-var completedTodos = []
+let completedTodos = []
 
 var todoLength = todoList.length
 var i = 0
@@ -18,7 +18,5 @@ for (todoList[i]; i < todoLength; i++) {
 var completedLength = completedTodos.length
 var j = 0
 for (completedTodos[j]; j < completedLength; j++) {
-    if (completedTodos[j].status == 'complete') {
-        console.log(completedTodos[j].status)
-    }
+    console.log(completedTodos[j].status)
 }
